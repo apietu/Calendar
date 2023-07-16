@@ -4,14 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dynamic Calender</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <script src="script.js" defer></script>
   </head>
   <body>
     <div class="wrapper">
       <header>
         <p class="current-date"></p>
-        <div class="icons"></div>
+        <div class="icons">
+          <span id="prev" class="ri-arrow-left-line"></span>
+          <span id="next" class="ri-arrow-right-line"></span>
+        </div>
       </header>
       <div class="calendar">
         <ul class="weeks">
@@ -21,11 +28,10 @@
           <li>Wed</li>
           <li>Thu</li>
           <li>Fri</li>
-          <li>Sat</li> 
+          <li>Sat</li>
         </ul>
         <ul class="days"></ul>
       </div>
     </div>
-    <i class="ri-arrow-left-line"></i><i class="ri-arrow-left-line"></i>
   </body>
 </html>

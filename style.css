@@ -65,7 +65,7 @@ header .icons span {
   user-select: none;
   border-radius: 50%;
 }
-.icons span: :last-child {
+.icons span:last-child {
   margin-right: -10px;
 }
 header .icons span:hover {
